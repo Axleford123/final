@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Quantum Core Systems - High Performance Laptops & Accessories">
+    <title>Quantum Core Systems | Home</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+    <style>
+        body { font-family: system-ui, sans-serif; }
+    </style>
+</head>
+<body class="bg-gray-50">
+
+    <!-- NAVIGATION BAR -->
+    <nav class="bg-white border-b sticky top-0 z-50">
+        <div class="max-w-6xl mx-auto px-6 py-5 flex items-center justify-between">
+            <a href="index.html" class="text-2xl font-bold flex items-center gap-2">
+                <i class="fa-solid fa-laptop"></i>
+                Quantum Core
+            </a>
+            
+            <div class="flex items-center gap-8 text-sm font-medium">
+                <a href="index.html" class="hover:text-black">Home</a>
+                <a href="product-detail.html" class="hover:text-black">Shop Laptops</a>
+                <a href="cart.html" class="hover:text-black">Cart</a>
+                <a href="checkout.html" class="hover:text-black">Checkout</a>
+                <a href="post-purchase.html" class="hover:text-black">Orders</a>
+                <a href="feedback.html" class="hover:text-black">Feedback</a>
+            </div>
+
+            <a href="cart.html" class="flex items-center gap-2">
+                <i class="fa-solid fa-cart-shopping text-xl"></i>
+                <span id="cart-count" class="bg-black text-white text-xs px-2 py-1 rounded-full">0</span>
+            </a>
+        </div>
+    </nav>
+
+    <!-- HERO SECTION -->
+    <header class="bg-black text-white py-20">
+        <div class="max-w-6xl mx-auto px-6 grid md:grid-cols-2 gap-12 items-center">
+            <div>
+                <h1 class="text-5xl font-bold leading-tight">
+                    High-Performance Laptops<br>&amp; Accessories
+                </h1>
+                <p class="mt-6 text-xl">Built for Gaming. Built for Work.</p>
+                <a href="product-detail.html" 
+                   class="mt-8 inline-block bg-white text-black px-8 py-4 rounded-xl font-medium hover:bg-gray-100">
+                    Shop Now →
+                </a>
+            </div>
+            <img src="https://picsum.photos/id/1015/700/450" 
+                 alt="Gaming Laptop" 
+                 class="rounded-3xl shadow-2xl">
+        </div>
+    </header>
+
+    <!-- MAIN CONTENT -->
+    <main class="max-w-6xl mx-auto px-6 py-12">
+        <h2 class="text-3xl font-bold mb-8">Featured Laptops</h2>
+        
+        <div class="grid md:grid-cols-3 gap-6">
+            <!-- Product Card 1 -->
+            <div class="bg-white border rounded-2xl overflow-hidden hover:shadow-md transition">
+                <img src="https://picsum.photos/id/1015/400/250" alt="Gaming Laptop XYZ" class="w-full">
+                <div class="p-6">
+                    <h3 class="font-semibold">Gaming Laptop XYZ</h3>
+                    <p class="text-sm text-gray-600 mt-1">Intel i7 • 16GB • RTX 4060</p>
+                    <div class="flex justify-between items-center mt-6">
+                        <span class="text-2xl font-bold">P24,999</span>
+                        <a href="product-detail.html" class="bg-black text-white px-6 py-3 rounded-xl text-sm">View Details</a>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Product Card 2 -->
+            <div class="bg-white border rounded-2xl overflow-hidden hover:shadow-md transition">
+                <img src="https://picsum.photos/id/201/400/250" alt="Work Laptop ABC" class="w-full">
+                <div class="p-6">
+                    <h3 class="font-semibold">Work Laptop ABC</h3>
+                    <p class="text-sm text-gray-600 mt-1">AMD Ryzen 7 • 32GB • 1TB SSD</p>
+                    <div class="flex justify-between items-center mt-6">
+                        <span class="text-2xl font-bold">P34,999</span>
+                        <a href="product-detail.html" class="bg-black text-white px-6 py-3 rounded-xl text-sm">View Details</a>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Product Card 3 -->
+            <div class="bg-white border rounded-2xl overflow-hidden hover:shadow-md transition">
+                <img src="https://picsum.photos/id/30/400/250" alt="Premium Laptop DEF" class="w-full">
+                <div class="p-6">
+                    <h3 class="font-semibold">Premium Laptop DEF</h3>
+                    <p class="text-sm text-gray-600 mt-1">Intel i9 • 32GB • RTX 4080</p>
+                    <div class="flex justify-between items-center mt-6">
+                        <span class="text-2xl font-bold">P44,999</span>
+                        <a href="product-detail.html" class="bg-black text-white px-6 py-3 rounded-xl text-sm">View Details</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </main>
+
+    <!-- FOOTER -->
+    <footer class="bg-white border-t mt-12">
+        <div class="max-w-6xl mx-auto px-6 py-12 grid md:grid-cols-3 gap-8 text-sm">
+            <div>
+                <strong>Shop</strong><br>
+                Laptops • Accessories • Brands
+            </div>
+            <div>
+                <strong>Support</strong><br>
+                Warranty • Returns • Drivers
+            </div>
+            <div>
+                <strong>Company</strong><br>
+                About Us • Contact • Careers
+            </div>
+            <div class="md:col-span-3 text-center text-xs pt-10 border-t">
+                © 2026 Quantum Core Systems — All Rights Reserved
+            </div>
+        </div>
+    </footer>
+
+</body>
+</html>
